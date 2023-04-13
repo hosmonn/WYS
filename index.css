@@ -1147,6 +1147,10 @@ input:focus, textarea:focus, select:focus
 {
    display: none;
 }
+#gallery .visible-col3
+{
+   display: none;
+}
 #wb_Heading1
 {
    background-color: transparent;
@@ -1255,7 +1259,673 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    z-index: 0;
 }
-@media only screen and (max-width: 969px)
+@media only screen and (min-width: 768px) and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 514px;
+   top: 996px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_header
+{
+   visibility: visible;
+   display: table;
+}
+#wb_header
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#header
+{
+   padding: 8px 15px 8px 15px;
+}
+#header .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#header > .row > .col-1, #header > .row > .col-2, #header > .row > .col-3, #header > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#header > .row > .col-1
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-3
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-4
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: right;
+}
+#wb_headerIcon1
+{
+   width: 24px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#headerIcon1
+{
+   width: 24px;
+   height: 33px;
+}
+#headerIcon1 i
+{
+   line-height: 33px;
+   font-size: 24px;
+   width: 23px;
+}
+#headerLabel1
+{
+   width: 120px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 8px 4px 8px 4px;
+   text-align: left;
+}
+#headerLabel1
+{
+   line-height: 17px;
+}
+#wb_headerIcon2
+{
+   width: 24px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#headerIcon2
+{
+   width: 24px;
+   height: 33px;
+}
+#headerIcon2 i
+{
+   line-height: 33px;
+   font-size: 24px;
+   width: 23px;
+}
+#headerLabel2
+{
+   width: 170px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 8px 4px 8px 4px;
+   text-align: left;
+}
+#headerLabel2
+{
+   line-height: 17px;
+}
+#wb_headerIcon3
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon3
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon3 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon4
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon4
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon4 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon5
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon5
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon5 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon6
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon6
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon6 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_navigation
+{
+   visibility: visible;
+   display: table;
+}
+#wb_navigation
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#navigation
+{
+   padding: 20px 15px 20px 15px;
+}
+#navigation .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#navigation > .row > .col-1, #navigation > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#navigation > .row > .col-1
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#navigation > .row > .col-2
+{
+   display: block;
+   width: 75%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_navigationMenu
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#navigationMenu, .navigationMenu .nav, .navigationMenu .dropdown-menu
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+}
+#wb_navigationHeading
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_galleryPhotoGrid
+{
+   visibility: visible;
+   display: table;
+}
+#wb_galleryPhotoGrid
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#galleryPhotoGrid
+{
+   padding: 25px 15px 25px 15px;
+}
+#galleryPhotoGrid .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_gallery
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   color: #969696;
+}
+#gallery .thumbnail
+{
+   width: 33.33333333%;
+}
+#gallery .visible-col4
+{
+   display: none;
+}
+#gallery .visible-col2
+{
+   display: none;
+}
+#gallery .visible-col3
+{
+   display: block;
+}
+#wb_Heading1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0px 0px 20px 0px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 514px;
+   top: 996px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_header
+{
+   visibility: visible;
+   display: table;
+}
+#wb_header
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#header
+{
+   padding: 8px 15px 8px 15px;
+}
+#header .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#header > .row > .col-1, #header > .row > .col-2, #header > .row > .col-3, #header > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#header > .row > .col-1
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-3
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-4
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: right;
+}
+#wb_headerIcon1
+{
+   width: 24px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#headerIcon1
+{
+   width: 24px;
+   height: 33px;
+}
+#headerIcon1 i
+{
+   line-height: 33px;
+   font-size: 24px;
+   width: 23px;
+}
+#headerLabel1
+{
+   width: 120px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 8px 4px 8px 4px;
+   text-align: left;
+}
+#headerLabel1
+{
+   line-height: 17px;
+}
+#wb_headerIcon2
+{
+   width: 24px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#headerIcon2
+{
+   width: 24px;
+   height: 33px;
+}
+#headerIcon2 i
+{
+   line-height: 33px;
+   font-size: 24px;
+   width: 23px;
+}
+#headerLabel2
+{
+   width: 170px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 8px 4px 8px 4px;
+   text-align: left;
+}
+#headerLabel2
+{
+   line-height: 17px;
+}
+#wb_headerIcon3
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon3
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon3 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon4
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon4
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon4 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon5
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon5
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon5 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon6
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon6
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon6 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_navigation
+{
+   visibility: visible;
+   display: table;
+}
+#wb_navigation
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#navigation
+{
+   padding: 20px 15px 20px 15px;
+}
+#navigation .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#navigation > .row > .col-1, #navigation > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#navigation > .row > .col-1
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#navigation > .row > .col-2
+{
+   display: block;
+   width: 75%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_navigationMenu
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#navigationMenu, .navigationMenu .nav, .navigationMenu .dropdown-menu
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+}
+#wb_navigationHeading
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_galleryPhotoGrid
+{
+   visibility: visible;
+   display: table;
+}
+#wb_galleryPhotoGrid
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#galleryPhotoGrid
+{
+   padding: 25px 15px 25px 15px;
+}
+#galleryPhotoGrid .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_gallery
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   color: #969696;
+}
+#gallery .thumbnail
+{
+   width: 50%;
+}
+#gallery .visible-col4
+{
+   display: none;
+}
+#gallery .visible-col2
+{
+   display: block;
+}
+#gallery .visible-col3
+{
+   display: none;
+}
+#wb_Heading1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0px 0px 20px 0px;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 599px)
 {
 body
 {
@@ -1561,6 +2231,7 @@ body
    visibility: visible;
    display: block;
    margin: 0;
+   color: #969696;
 }
 #gallery .thumbnail
 {
@@ -1573,6 +2244,676 @@ body
 #gallery .visible-col2
 {
    display: block;
+}
+#gallery .visible-col3
+{
+   display: none;
+}
+#wb_Heading1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0px 0px 20px 0px;
+}
+}
+@media only screen and (min-width: 400px) and (max-width: 479px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 999px;
+   top: 922px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_header
+{
+   visibility: visible;
+   display: table;
+}
+#wb_header
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#header
+{
+   padding: 8px 15px 8px 15px;
+}
+#header .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#header > .row > .col-1, #header > .row > .col-2, #header > .row > .col-3, #header > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#header > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: right;
+}
+#wb_headerIcon1
+{
+   width: 24px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#headerIcon1
+{
+   width: 24px;
+   height: 33px;
+}
+#headerIcon1 i
+{
+   line-height: 33px;
+   font-size: 24px;
+   width: 23px;
+}
+#headerLabel1
+{
+   width: 169px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 8px 4px 8px 4px;
+   text-align: left;
+}
+#headerLabel1
+{
+   line-height: 17px;
+}
+#wb_headerIcon2
+{
+   width: 24px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#headerIcon2
+{
+   width: 24px;
+   height: 33px;
+}
+#headerIcon2 i
+{
+   line-height: 33px;
+   font-size: 24px;
+   width: 23px;
+}
+#headerLabel2
+{
+   width: 250px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 8px 4px 8px 4px;
+   text-align: left;
+}
+#headerLabel2
+{
+   line-height: 17px;
+}
+#wb_headerIcon3
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon3
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon3 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon4
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon4
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon4 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon5
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon5
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon5 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon6
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon6
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon6 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_navigation
+{
+   visibility: visible;
+   display: table;
+}
+#wb_navigation
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#navigation
+{
+   padding: 20px 15px 20px 15px;
+}
+#navigation .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#navigation > .row > .col-1, #navigation > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#navigation > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#navigation > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_navigationMenu
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#navigationMenu, .navigationMenu .nav, .navigationMenu .dropdown-menu
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+}
+#wb_navigationHeading
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_galleryPhotoGrid
+{
+   visibility: visible;
+   display: table;
+}
+#wb_galleryPhotoGrid
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#galleryPhotoGrid
+{
+   padding: 25px 15px 25px 15px;
+}
+#galleryPhotoGrid .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_gallery
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   color: #969696;
+}
+#gallery .thumbnail
+{
+   width: 50%;
+}
+#gallery .visible-col4
+{
+   display: none;
+}
+#gallery .visible-col2
+{
+   display: block;
+}
+#gallery .visible-col3
+{
+   display: none;
+}
+#wb_Heading1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0px 0px 20px 0px;
+}
+}
+@media only screen and (max-width: 399px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#BuildWith1
+{
+   left: 999px;
+   top: 922px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_header
+{
+   visibility: visible;
+   display: table;
+}
+#wb_header
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#header
+{
+   padding: 8px 15px 8px 15px;
+}
+#header .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#header > .row > .col-1, #header > .row > .col-2, #header > .row > .col-3, #header > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#header > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#header > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: right;
+}
+#wb_headerIcon1
+{
+   width: 24px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#headerIcon1
+{
+   width: 24px;
+   height: 33px;
+}
+#headerIcon1 i
+{
+   line-height: 33px;
+   font-size: 24px;
+   width: 23px;
+}
+#headerLabel1
+{
+   width: 169px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 8px 4px 8px 4px;
+   text-align: left;
+}
+#headerLabel1
+{
+   line-height: 17px;
+}
+#wb_headerIcon2
+{
+   width: 24px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+#headerIcon2
+{
+   width: 24px;
+   height: 33px;
+}
+#headerIcon2 i
+{
+   line-height: 33px;
+   font-size: 24px;
+   width: 23px;
+}
+#headerLabel2
+{
+   width: 250px;
+   height: 33px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 8px 4px 8px 4px;
+   text-align: left;
+}
+#headerLabel2
+{
+   line-height: 17px;
+}
+#wb_headerIcon3
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon3
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon3 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon4
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon4
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon4 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon5
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon5
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon5 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_headerIcon6
+{
+   width: 24px;
+   height: 40px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0px 10px 0px 0px;
+   padding: 0;
+}
+#headerIcon6
+{
+   width: 24px;
+   height: 40px;
+}
+#headerIcon6 i
+{
+   line-height: 40px;
+   font-size: 24px;
+   width: 23px;
+}
+#wb_navigation
+{
+   visibility: visible;
+   display: table;
+}
+#wb_navigation
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#navigation
+{
+   padding: 20px 15px 20px 15px;
+}
+#navigation .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#navigation > .row > .col-1, #navigation > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#navigation > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#navigation > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_navigationMenu
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#navigationMenu, .navigationMenu .nav, .navigationMenu .dropdown-menu
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+}
+#wb_navigationHeading
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+#wb_galleryPhotoGrid
+{
+   visibility: visible;
+   display: table;
+}
+#wb_galleryPhotoGrid
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#galleryPhotoGrid
+{
+   padding: 25px 15px 25px 15px;
+}
+#galleryPhotoGrid .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_gallery
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   color: #969696;
+}
+#gallery .thumbnail
+{
+   width: 50%;
+}
+#gallery .visible-col4
+{
+   display: none;
+}
+#gallery .visible-col2
+{
+   display: block;
+}
+#gallery .visible-col3
+{
+   display: none;
 }
 #wb_Heading1
 {
